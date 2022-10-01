@@ -11,6 +11,7 @@ public class PrimeNumbers {
             {
                 if(prime%primeChecker==0)
                     isPrime = false;
+                primeChecker++;
             }
             if(isPrime)
                 System.out.println(prime);
